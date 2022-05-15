@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.attribution {
+    position: absolute;
+    bottom: 30px;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+}
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    width: 370px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 12px;
+}
+
+.content {
+    padding-bottom: 15px;
+}
+.wrap {
+    width: 100%;
+    padding: 20px;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.show  {
+    width: 100%;
+    height: 100%;
+}
+.hidden-box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(178, 100%, 50%);
+    position: absolute;
+    opacity: 0.5;
+}
+.hidden {
+    z-index: 1;
+}
+.header:hover .hidden-box {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    padding: 24px 0;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400px;
+}
+.text-description {
+    font-size: 18px;
+    color:  hsl(215, 51%, 70%);
+    padding-bottom: 24px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+.cost{
+    font-weight: 400px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(178, 100%, 50%);
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(215, 51%, 70%);
+}
+.time-icon {
+    padding-right: 5px;
+}
+
+.footer {
+    padding: 15px 0;
+    border-top: 1px solid  hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+}
+
+
+.avt-box {
+    width: 44px;
+    height: 44px;
+    border: 3px solid hsl(0, 0%, 100%) ;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+   
+}
+.avt-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.creation {
+    color: hsl(215, 51%, 70%) ;
+}
+
+.name {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
